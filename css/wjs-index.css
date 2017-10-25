@@ -1,0 +1,232 @@
+header.wjs-header {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+header.wjs-header .row > div:nth-of-type(-n+3) {
+  border-right: 1px solid #ccc;
+}
+header.wjs-header .row > div:last-of-type .btn {
+  padding: 3px 10px;
+}
+header.wjs-header .row > div:last-of-type .btn-link {
+  color: #555;
+}
+header.wjs-header a {
+  height: 50px;
+}
+header.wjs-header a.wjs-phone {
+  position: relative;
+}
+header.wjs-header a.wjs-phone img {
+  position: absolute;
+  display: none;
+}
+header.wjs-header a.wjs-phone:hover img {
+  display: block;
+}
+.wjs-banner .item .mobileImg {
+  width: 100%;
+  display: block;
+}
+.wjs-banner .item .mobileImg img {
+  width: 100%;
+  display: block;
+}
+.wjs-banner .item .pcImg {
+  width: 100%;
+  display: block;
+  height: 410px;
+  background-position: center center;
+  background-size: cover;
+}
+.wjs-info {
+  padding-top: 20px;
+}
+.wjs-info .container .row > div {
+  padding: 20px 0 0 20px;
+}
+.wjs-info .container .row > div .wjs_icon {
+  font-size: 30px;
+}
+.wjs-news {
+  padding: 20px 0;
+}
+.wjs-news .container h2 {
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.wjs-news .container h2::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  bottom: -5px;
+  right: -5px;
+  background-color: #fff;
+}
+.wjs-news .container .wjs-news-line {
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 45px;
+  border-left: 1px dashed red;
+}
+.wjs-news .container .nav-tabs {
+  border-bottom: none;
+}
+.wjs-news .container .nav-tabs li {
+  margin-bottom: 40px;
+}
+.wjs-news .container .nav-tabs li a {
+  background-color: #ccc;
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.wjs-news .container .nav-tabs li a .wjs_icon {
+  font-size: 30px;
+}
+.wjs-news .container .nav-tabs li:last-of-type {
+  margin-bottom: 0;
+}
+.wjs-news .container .nav-tabs li.active a {
+  background-color: red;
+  border-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  .wjs-news .container .nav-tabs li {
+    margin: 20px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wjs-news .container .nav-tabs li {
+    width: 25%;
+    margin: 20px 0;
+  }
+}
+.wjs-news .container .tab-content .tab-pane1 ul li {
+  list-style: none;
+  line-height: 50px;
+}
+.wjs-product {
+  background-color: #eee;
+}
+.wjs-product .nav-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.wjs-product .nav-wrap .nav-tabs {
+  border-bottom: 1px solid #ccc;
+}
+.wjs-product .nav-wrap .nav-tabs li {
+  padding: 0 15px;
+}
+.wjs-product .nav-wrap .nav-tabs li a {
+  line-height: 60px;
+  border: none;
+  background-color: #eee;
+}
+.wjs-product .nav-wrap .nav-tabs li.active a,
+.wjs-product .nav-wrap .nav-tabs li.active a:hover,
+.wjs-product .nav-wrap .nav-tabs li.active a:focus {
+  border: none;
+  background-color: #eee;
+  border-bottom: 3px solid red;
+}
+.wjs-product .tab-content {
+  padding-top: 10px;
+}
+.wjs-product .tab-content .row .wjs-product-box {
+  background-color: #fff;
+  margin: 10px 5px;
+  height: 150px;
+  position: relative;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-left-box {
+  height: 150px;
+  margin-right: 100px;
+  border-right: 1px dashed #ccc;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-left-box h4 {
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-left-box .row > div:nth-of-type(even) {
+  text-align: right;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-left-box .row p {
+  font-size: 12px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 150px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box::after,
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eee;
+  left: -5px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box::before {
+  bottom: -5px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box::after {
+  top: -5px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box b {
+  font-size: 40px;
+  color: red;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box .tooltips-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20px;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box .tooltips-wrap span:first-of-type {
+  color: red;
+  border: 1px solid red;
+}
+.wjs-product .tab-content .row .wjs-product-box .wjs-product-right-box .tooltips-wrap span:last-of-type {
+  color: blue;
+  border: 1px solid blue;
+}
+.wjs-product .tab-content .row .wjs-product-box.active {
+  background-color: red;
+  color: white;
+}
+.wjs-product .tab-content .row .wjs-product-box.active .wjs-product-left-box {
+  position: relative;
+}
+.wjs-product .tab-content .row .wjs-product-box.active .wjs-product-left-box::before {
+  content: "\e915";
+  font-family: "wjs";
+  position: absolute;
+  font-size: 30px;
+  left: 0;
+  top: -6px;
+}
+.wjs-product .tab-content .row .wjs-product-box.active b {
+  color: white;
+}
